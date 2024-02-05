@@ -8,18 +8,18 @@ import { faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-ic
 
 const Sidebar = () => (
     <div className='nav-bar'>
-        <Link className='logo' to='/'>
+        <Link className='logo' to='/react-portfolio'>
             <img src={LogoS} alt="logo" />
-            <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+            <img className="sub-logo" src={LogoSubtitle} alt="Christian" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink end="true" activeclassname="active" to="/react-portfolio">
                 <FontAwesomeIcon icon={faHome} color = "#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink end="true" activeclassname="active" className="about-link" to="/react-portfolio/about">
                 <FontAwesomeIcon icon={faUser} color = "#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+            <NavLink end="true" activeclassname="active" className="contact-link" to="/react-portfolio/contact">
                 <FontAwesomeIcon icon={faEnvelope} color = "#4d4d4e" />
             </NavLink>
         </nav>
