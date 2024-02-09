@@ -47,7 +47,7 @@ const Home = () => {
                     />
                 </h1>
                 <h2>Frontend Developer / JavaScript Developer / React</h2>
-                <Link to="/contact" className= 'flat-button'>CONTACT ME</Link>
+                <Link to="/react-portfolio/contact" className= 'flat-button'>CONTACT ME</Link>
             </div>
         </div>
         <Loader type="pacman" />
